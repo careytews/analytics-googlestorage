@@ -1,0 +1,6 @@
+src/analytics/googlestorage
+src/analytics/vendor
+src/analytics/Gopkg.lock
+src/github.com
+bin
+pkg

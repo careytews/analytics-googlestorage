@@ -1,0 +1,10 @@
+FROM fedora:26
+
+RUN dnf install -y libgo
+
+COPY googlestorage /usr/local/bin/
+
+ENTRYPOINT ["/usr/local/bin/googlestorage"]
+CMD [ "/queue/input" ]
+
+
